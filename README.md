@@ -73,7 +73,6 @@ section {
     border-radius:20px;
     box-shadow:0 0 30px gold;
 }
-
 /* MESSAGE */
 .message {
     max-width:800px;
@@ -85,11 +84,20 @@ section {
 }
 
 /* GALLERY */
-.gallery img {
-    width:250px;
-    margin:10px;
-    border-radius:15px;
-}
+<!-- GALLERY -->
+<section>
+<h2>📸 Memories</h2>
+
+<div class="gallery" style="display:flex; justify-content:center; flex-wrap:wrap;">
+
+<img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=500">
+
+<!-- YOUR IMAGE (center highlight) -->
+<img src="your-image.png" style="width:300px; border:4px solid gold;">
+
+</div>
+
+</section>
 
 /* FLOATING */
 .float {
